@@ -78,7 +78,8 @@ public class StackUsingLinkedlist
         // update the top pointer to point to the next node
         head= (head).next;
     }
-    void printList() //print the data
+    //print the data
+    void printList()
     {
         // check for stack underflow
         if (head == null)
