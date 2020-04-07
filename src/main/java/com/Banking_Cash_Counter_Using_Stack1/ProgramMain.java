@@ -7,12 +7,14 @@ public class ProgramMain
     public static void main(String[] args)
     {
         //creating object
-        StackUsingLinkedlist list = new StackUsingLinkedlist();
-        int count = 0;
+
+
         //user input for no of people in queue
         Scanner sc =new Scanner(System.in);
         System.out.println("enter no of peoples in queue ");
         int  PeopleInQue= sc.nextInt();
+        Stack list = new Stack(PeopleInQue);
+        int count = 0;
         Banking bank = new Banking();
         do {
             int userMoney = 5000;
